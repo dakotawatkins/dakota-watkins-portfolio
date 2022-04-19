@@ -9,7 +9,7 @@
     />
     <!-- font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
     <!-- craft icons -->
@@ -38,11 +38,11 @@
   <header class="header-container">
     <!-- nav bar -->
     <nav id="nav-bar" class="nav-bar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#craft">Craft</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#home" class="nav-bar-item">Home</a>
+      <a href="#about" class="nav-bar-item">About</a>
+      <a href="#craft" class="nav-bar-item">Craft</a>
+      <a href="#projects" class="nav-bar-item">Projects</a>
+      <a href="#contact" class="nav-bar-item">Contact</a>
     </nav>
   </header>
 
@@ -54,6 +54,13 @@
           <h1 class="home-page-name">Dakota Watkins</h1>
           <h2 class="home-page-title">Software Engineer</h2>
           <h3 class="home-page-pronouns">He/him/his</h3>
+          <img
+            src="/images/dw-portrait.JPG"
+            alt="Portrait of Dakota"
+            class="home-portrait"
+          />
+          <!-- <h2 class="home-page-title">Software Engineer</h2>
+          <h3 class="home-page-pronouns">He/him/his</h3> -->
         </div>
         <div class="home-2">
           <h4>Welcome to my portfolio.</h4>
@@ -66,7 +73,7 @@
 
       <!-- About section -->
       <div id="about" class="about">
-        <h2 class="page-title">About</h2>
+        <h2 class="page-title">A Little About Me</h2>
         <div class="about-content">
           <p class="about-text">Hello,</p>
           <p></p>
@@ -76,12 +83,12 @@
             learning and I enjoy translating designs and requirements into real
             life applications.
           </p>
-          <p>
+          <p class="about-text">
             I recently graduated from a full stack software engineering course
             at Thinkful. The course allowed me to hone my coding skills and
             increase my passion for the software industry.
           </p>
-          <p>
+          <p class="about-text">
             I graduated from Portland State University with a bachelors degree
             in mechanical engineering. Since graduating i've been working as a
             'Marine Design Engineer' developing structure, piping, and
@@ -95,42 +102,36 @@
         <h2 class="page-title">Craft</h2>
         <div class="craft-content">
           <!-- Icon grid -->
-          <div>
-            <h2 class="craft-icons-row craft-section-title">Front End</h2>
-            <div class="craft-icons-row">
-              <i class="craft-icon devicon-html5-plain-wordmark"></i>
-              <i class="craft-icon devicon-css3-plain-wordmark"></i>
-              <i class="craft-icon devicon-react-original-wordmark"></i>
-              <i class="craft-icon devicon-bootstrap-plain-wordmark"></i>
-              <i class="craft-icon"></i>
-            </div>
-          </div>
-          <div>
-            <h2 class="craft-icons-row craft-section-title">Back End</h2>
-            <div class="craft-icons-row">
-              <i class="craft-icon devicon-nodejs-plain-wordmark"></i>
-              <i class="craft-icon devicon-express-original"></i>
-              <i class="craft-icon devicon-postgresql-plain"></i>
-              <i class="craft-icon"></i>
-              <i class="craft-icon"></i>
-            </div>
-          </div>
-          <div>
-            <h2 class="craft-icons-row craft-section-title">Additional</h2>
-            <div class="craft-icons-row">
-              <i class="craft-icon devicon-javascript-plain"></i>
-              <i class="craft-icon devicon-heroku-plain-wordmark"></i>
-              <i class="craft-icon devicon-git-plain-wordmark"></i>
-              <i class="craft-icon devicon-jest-plain"></i>
-              <i class="craft-icon devicon-jquery-plain-wordmark"></i>
-              <i class="craft-icon devicon-matlab-plain"></i>
-              <i class="craft-icon devicon-mocha-plain"></i>
-              <i class="craft-icon devicon-npm-original-wordmark"></i>
-              <i class="craft-icon devicon-typescript-plain"></i>
-              <i class="craft-icon devicon-visualstudio-plain-wordmark"></i>
-              <i class="craft-icon devicon-r-original"></i>
-              <i class="craft-icon iconify" data-icon="logos:vercel"></i>
-            </div>
+
+          <!-- <h2 class="craft-icons-row craft-section-title">Front End</h2> -->
+          <div class="craft-icons-row">
+            <i class="craft-icon devicon-html5-plain-wordmark"></i>
+            <i class="craft-icon devicon-css3-plain-wordmark"></i>
+            <i class="craft-icon devicon-react-original-wordmark"></i>
+            <i class="craft-icon devicon-bootstrap-plain-wordmark"></i>
+            <i class="craft-icon"></i>
+
+            <!-- <h2 class="craft-icons-row craft-section-title">Back End</h2> -->
+
+            <i class="craft-icon devicon-nodejs-plain-wordmark"></i>
+            <i class="craft-icon devicon-express-original"></i>
+            <i class="craft-icon devicon-postgresql-plain"></i>
+
+            <i class="craft-icon devicon-javascript-plain"></i>
+            <i class="craft-icon devicon-heroku-plain-wordmark"></i>
+            <i class="craft-icon devicon-git-plain-wordmark"></i>
+            <i class="craft-icon devicon-jest-plain"></i>
+            <i class="craft-icon devicon-jquery-plain-wordmark"></i>
+            <i class="craft-icon devicon-matlab-plain"></i>
+            <i class="craft-icon devicon-mocha-plain"></i>
+            <i class="craft-icon devicon-npm-original-wordmark"></i>
+            <i class="craft-icon devicon-typescript-plain"></i>
+            <i class="craft-icon devicon-visualstudio-plain"></i>
+            <i class="craft-icon devicon-r-original"></i>
+            <i
+              class="craft-icon iconify"
+              data-icon="akar-icons:vercel-fill"
+            ></i>
           </div>
         </div>
       </div>
@@ -144,7 +145,7 @@
                     <a href="https://periodic-tables-frontend-dw.herokuapp.com/" target="_blank">Restaurant Reservations</a>    
                 </div> -->
           <h2 class="project-title">Restaurant Reservations</h2>
-          <div class="git-code">
+          <!-- <div class="git-code">
             <a
               href="https://github.com/dakotawatkins/final-capstone-restaurant-reservations"
               class="git-code-link"
@@ -153,7 +154,7 @@
               <p>Code</p>
               <i class="fa fa-code"></i>
             </a>
-          </div>
+          </div> -->
           <a
             href="https://periodic-tables-frontend-dw.herokuapp.com/"
             class="project-image"
@@ -168,7 +169,7 @@
 
         <div class="project-section">
           <h2 class="project-title">Movie Seat Booking</h2>
-          <div class="git-code">
+          <!-- <div class="git-code">
             <a
               href="https://github.com/dakotawatkins/movie-seat-booking"
               class="git-code-link"
@@ -177,7 +178,7 @@
               <p>Code</p>
               <i class="fa fa-code"></i>
             </a>
-          </div>
+          </div> -->
           <a
             href="https://movie-seat-booking-orpin.vercel.app/"
             class="project-image"

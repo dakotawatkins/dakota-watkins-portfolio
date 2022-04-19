@@ -1,0 +1,497 @@
+/* global */
+* {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #2C7B52;
+    color: #333434;
+}
+
+* {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #1d1e1d;
+    color: #aeb1b0;
+    max-width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+} 
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-bar-item {
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.content-container {
+    margin: 0px 40px 0px 40px;
+    padding-top: 20px;
+}
+
+/* home */
+
+.home-portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.home-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-name {
+    text-align: center;
+    margin: 30px 10px 0px 10px;
+}
+
+.home-page-title {
+    margin:  0px 0px 5px 0px;
+    font-size: larger;
+}
+
+.home-page-pronouns {
+    margin:  0px 0px 5px 0px;
+    font-size: medium;
+}
+
+.home-2 {
+    display: flex;
+    flex-direction: column;
+    /* text-align: right; */
+    margin-top: 40px;
+}
+
+/* about */
+
+.about {
+    margin-top: 80px;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+  
+.about-text {
+    font-size: 14px;
+    width: 300px;
+}
+
+/* craft */
+
+.craft {
+    margin-top: 80px;
+}
+
+.craft-icons-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.craft-icon {
+    font-size: 60px;
+    margin: 15px 10px;
+    color: #aeb1b0;
+}
+
+
+/* projects */
+
+.projects-content {
+    margin-top: 80px;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+  
+.project-section i {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.project-section img {
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+/* .git-code {
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+} */
+
+.project-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+} 
+
+/* contact info */
+
+.contact-content {
+    margin-top: 80px;
+}
+
+.contact-icon {
+    text-decoration: none;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+.contact-icon-text {
+    font-size: 14px;
+    margin-top: 0px;
+}
+  
+.contact-icons {
+    font-size: 42px;
+    /* margin-top: 25%; */
+}
+
+@media (min-width: 500px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .nav-bar {
+        width: 500px;
+    }
+
+    .home-1 {
+        width: 500px;
+    }
+
+    .home-2 {
+        width: 500px;
+    }
+
+    .about-page {
+        width: 500px;
+    }
+
+    .about-text {
+        width: 500px;
+    }
+
+    .craft-icons-row {
+        width: 500px;
+    }
+
+    .project-section {
+        width: 500px;
+    }
+}
+
+
+@media (min-width: 600px) {
+
+    .nav-bar {
+        width: 600px;
+        margin-left: 20px;
+    }
+
+    .home-1 {
+        width: 600px;
+    }
+
+    .home-2 {
+        margin-left: 100px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .about-page {
+        width: 600px;
+    }
+
+    .page-title {
+        margin-left: 100px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 15px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .craft-icons-row {
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 400px;
+    }
+
+    .craft-icon {
+        font-size: 80px;
+    }
+
+    .project-section {
+        width: 600px;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .nav-bar {
+        width: 800px;
+    }
+
+    .home-1 {
+        width: 800px;
+    }
+
+    .home-2 {
+        margin-left: 100px;
+        margin-top: 60px;
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .about-page {
+        width: 800px;
+    }
+
+    .page-title {
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 20px;
+        margin-right: 150px;
+        margin-left: 100px;
+    }
+
+    .craft-icons-row {
+        margin-left: 100px;
+        /* margin-right: 600px; */
+        width: 500px;
+    }
+
+    .craft-icon {
+        font-size: 80px;
+    }
+
+    .project-section {
+        width: 800px;
+    }
+
+    .project-section img {
+        border-radius: 5px;
+        /* margin-left: 150px; */
+        width: 400px;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .nav-bar {
+        width: 1000px;
+    }
+
+    .home-1 {
+        width: 1000px;
+    }
+
+    .home-2 {
+        margin-left: 150px;
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .about-page {
+        width: 1000px;
+    }
+
+    .page-title {
+        margin-left: 150px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 20px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .craft-icons-row {
+        margin-left: 150px;
+        margin-right: 600px;
+        width: 700px;
+    }
+
+    .craft-icon {
+        font-size: 80px;
+    }
+
+    .project-section {
+        width: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .nav-bar {
+        width: 1200px;
+    }
+
+    .home-1 {
+        width: 1200px;
+    }
+
+    .home-2 {
+        margin-left: 300px;
+        width: 600px;
+        font-size: 20px;
+    }
+
+    .about-page {
+        width: 1200px;
+    }
+
+    .page-title {
+        margin-left: 150px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 15px;
+        margin-right: 300px;
+        margin-left: 150px;
+    }
+
+    .craft-icons-row {
+        margin-left: 150px;
+        margin-right: 600px;
+        width: 700px;
+    }
+
+    .project-section {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .nav-bar {
+        width: 1300px;
+    }
+
+    .home-1 {
+        width: 1300px;
+    }
+
+    .home-2 {
+        margin-left: 500px;
+        width: 500px;
+        font-size: 25px;
+    }
+
+    .about-page {
+        width: 1300px;
+    }
+
+    .page-title {
+        margin-left: 150px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 20px;
+        margin-right: 400px;
+        margin-left: 150px;
+    }
+
+    .craft-icons-row {
+        margin-left: 150px;
+        margin-right: 400px;
+        width: 900px;
+    }
+
+    .project-section {
+        width: 1300px;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    .nav-bar {
+        width: 1600px;
+    }
+
+    .home-1 {
+        width: 1600px;
+    }
+
+    .home-2 {
+        margin-left: 500px;
+        width: 500px;
+        font-size: 25px;
+    }
+
+    .about-page {
+        width: 1600px;
+    }
+
+    .page-title {
+        margin-left: 150px;
+    }
+
+    .about-text {
+        width: auto;
+        font-size: 20px;
+        margin-right: 400px;
+        margin-left: 150px;
+    }
+
+    .craft-icons-row {
+        margin-left: 150px;
+        margin-right: 400px;
+        width: 900px;
+    }
+
+    .project-section {
+        width: 1600px;
+    }
+}
