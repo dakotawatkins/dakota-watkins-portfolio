@@ -1,9 +1,9 @@
 /* global */
-* {
+/* * {
     font-family: 'Saira Condensed', sans-serif;
     background-color: #2C7B52;
     color: #333434;
-}
+} */
 
 * {
     font-family: 'Saira Condensed', sans-serif;
@@ -49,6 +49,9 @@
     flex-direction: row;
     justify-content: center;
     max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    height: auto;
+    border-radius: 5px;
 }
 
 .home-1 {
@@ -381,7 +384,7 @@
     }
 
     .home-2 {
-        margin-left: 300px;
+        margin-left: 150px;
         width: 600px;
         font-size: 20px;
     }
@@ -423,7 +426,7 @@
     }
 
     .home-2 {
-        margin-left: 500px;
+        margin-left: 200px;
         width: 500px;
         font-size: 25px;
     }
@@ -433,20 +436,20 @@
     }
 
     .page-title {
-        margin-left: 150px;
+        margin-left: 200px;
     }
 
     .about-text {
         width: auto;
         font-size: 20px;
         margin-right: 400px;
-        margin-left: 150px;
+        margin-left: 200px;
     }
 
     .craft-icons-row {
-        margin-left: 150px;
+        margin-left: 200px;
         margin-right: 400px;
-        width: 900px;
+        width: 800px;
     }
 
     .project-section {
