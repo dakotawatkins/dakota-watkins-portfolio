@@ -200,8 +200,8 @@
     font-size: 42px;
     /* margin-top: 25%; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (min-width: 500px) {
@@ -285,6 +285,14 @@
         margin-left: 100px;
         margin-right: 100px;
         width: 400px;
+    }
+
+    .contact-icons {
+        font-size: 42px;
+        /* margin-top: 25%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .craft-icon {
